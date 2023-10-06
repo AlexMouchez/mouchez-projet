@@ -1,0 +1,27 @@
+
+div.container{
+    display: flex;
+    width:100%;
+}
+p{
+    font-size: 1.1em;
+}
+.ville{
+    width: 33%;
+}
+.ville img{
+    width: 103%;
+    height: 100%;
+}
+.container p{
+    position: absolute;
+   padding: 10px;
+   background-color: rgba(50,50, 50, 0.5);
+   color: white;
+   font-size: 1em;
+   overflow: hidden;   
+   text-decoration: none;
+}
+h2{
+    align-self: flex-start;
+}
