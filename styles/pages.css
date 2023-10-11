@@ -6,6 +6,19 @@
         padding: 15px;
     }
 
+    #sommaire{
+        font-size: 0.7em;
+        position: absolute;
+        width: 15%;
+        background-color: black;
+        top: 15em;
+        left:-25%;
+        padding-right: 25%;
+    }
+    #sommaire:hover{
+        left:0px; 
+        padding-right: 0%;
+    }
     main div {
         display: flex;
         width: 33%;
@@ -66,7 +79,19 @@
         flex-direction: column;
         align-items: flex-start;
     }
-
+    #sommaire{
+        font-size: 0.7em;
+        position: absolute;
+        width: 15%;
+        background-color: black;
+        top: 15em;
+        left:-25%;
+        padding-right: 25%;
+    }
+    #sommaire:hover{
+        left:0px; 
+        padding-right: 0%;
+    }
     .imgT img {
         width: 100%;
         height: 15em;
@@ -99,6 +124,15 @@
         flex-wrap: wrap;
     }
 
+    #sommaire{
+        font-size: 0.3em;
+        position: absolute;
+       
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 30em;
+      padding-right: 50px;
+    }
+ 
     main div {
 
         display: flex;
@@ -170,4 +204,8 @@ h2 {
     align-self: center;
     width: 100%;
     text-align: center;
+}
+
+li{
+    padding: 3px;
 }
