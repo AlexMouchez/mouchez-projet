@@ -1,4 +1,4 @@
-*{
+* {
     z-index: 0;
 }
 
@@ -7,15 +7,15 @@ main div.display {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
-.ville p{
-    position:absolute;
+.ville p {          
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 999;
-    
+
 }
 
 .ville {
@@ -23,22 +23,19 @@ main div.display {
     position: relative;
 }
 
-.ville img {
-    width: 100%;
-    height: 10em;
-  
 
-}
-img:hover{
+img:hover {                  
     transform: scale(1.1);
     z-index: 1;
     filter: brightness(1.2);
- }
+}
 
- h1,h2{
+h1,
+h2 {
     text-align: center;
- }
- main {
+}
+
+main {
     flex-direction: column;
     margin-left: 25%;
     margin-right: 25%;
@@ -46,18 +43,36 @@ img:hover{
     margin-top: -10px;
     background-color: wheat;
 }
-h2,h1{
+
+h2,
+h1 {
     color: wheat;
     background-color: black;
 }
- @media screen and (min-width: 1001px){
- 
+
+@media screen and (min-width: 1001px) {
+    .ville img {
+        width: 100%;
+        height: 10em;
+    }
 }
- @media screen and (max-width: 1000px)and (min-width: 601px)
- {
-   
- }
- @media screen and (max-width: 600px){
+
+@media screen and (max-width: 1000px)and (min-width: 601px) {
+    main {
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 5%;
+        background-color: wheat;
+    }
+
+    .ville img {
+        width: 100%;
+        height: 12em;
+    }
+}
+
+@media screen and (max-width: 600px) {
     main {
         flex-direction: column;
         margin-left: 0;
@@ -65,4 +80,9 @@ h2,h1{
         padding-top: 5%;
         background-color: wheat;
     }
- }
+
+    .ville img {
+        width: 100%;
+        height: 10em;
+    }
+}
